@@ -1,0 +1,39 @@
+* {
+    background-color:#8E386E;
+}
+
+.head {
+    display: flex;
+    background-color: #8E386E;
+    color: #D2B650;
+    margin:0;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.pages {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 120px;
+    font-size: 25px;
+}
+
+.logo {
+    margin-right:55%;
+}
+
+.quote {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url('./images/quoteboard(2).jpg'); 
+    background-size:cover;
+    height:500px;
+    width:1840px;
+}
+
+.qText {
+    margin:350px;
+    background-color:#FFFF;
+}
+
