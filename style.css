@@ -1,5 +1,5 @@
-* {
-    background-color:#8E386E;
+body {
+    margin:0px;
 }
 
 .head {
@@ -24,16 +24,19 @@
 
 .quote {
     display:flex;
-    justify-content: left;
-    align-items: center;
-    background-image: url('./images/quoteboard(2).jpg'); 
-    background-size:cover;
-    height:500px;
-    width:1840px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #8E386E;
 }
 
+ /*Need to find a way to get text to go where I want it in the quote of the week*/
 .qText {
-    margin:350px;
-    background-color:#FFFF;
+    position: absolute;
+    top:20%;
+    left:42%;
+    transform: translate(-50%, -50%); 
+    color:white;
+    font-size: 40px;
+    font-family: 'Edu TAS Beginner', cursive;
 }
 
