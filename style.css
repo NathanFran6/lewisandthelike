@@ -45,17 +45,17 @@ body {
     padding-left:20px;
 }
 
-.MC {
+.box {
     display:flex;
     width: 500px;
 }
 
-.MCimg {
+.img {
     width:332px/2px;
     height:250px;
 }
 
-.MCtext {
+.titlText {
     font-family: 'Edu TAS Beginner', cursive;
     font-size:20px;
 }
@@ -68,21 +68,6 @@ body {
     width:200px;
 }
 
-.ST {
-    display:flex;
-    width:500px;
-}
-
-.STimg {
-    width:332px/2px;
-    height:250px;
-}
-
-.STtext {
-    font-family: 'Edu TAS Beginner', cursive;
-    font-size:20px;
-}
-
 a {
     text-decoration: none;
     color:black;
@@ -91,4 +76,41 @@ a {
 .revLink:hover {
     background-color: #8E386E;
     color:white;
+}
+
+.review {
+    display: flex;
+    gap:100px;
+}
+
+.revImg {
+    padding-right:20px;
+    width:332px;
+    height:500px;
+
+}
+
+.reviewBox {
+    margin-top: 20px;
+    display: flex;
+    margin-left:300px;
+    width:700px;
+}
+
+.quotes {
+    display:flex;
+    flex-direction: column;
+}
+
+.homeLink {
+    color:#D2B650;
+}
+
+.homeLink:hover {
+    color:white;
+}
+
+.others {
+    margin-left:20px;
+    margin-top:30px;
 }
