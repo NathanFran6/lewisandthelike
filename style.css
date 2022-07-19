@@ -29,7 +29,6 @@ body {
     background-color: #8E386E;
 }
 
- /*Need to find a way to get text to go where I want it in the quote of the week*/
 .qText {
     position: absolute;
     top:20%;
@@ -40,3 +39,56 @@ body {
     font-family: 'Edu TAS Beginner', cursive;
 }
 
+.reviews {
+    display: flex;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+.MC {
+    display:flex;
+    width: 500px;
+}
+
+.MCimg {
+    width:332px/2px;
+    height:250px;
+}
+
+.MCtext {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size:20px;
+}
+
+.revText{
+    padding-left:20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width:200px;
+}
+
+.ST {
+    display:flex;
+    width:500px;
+}
+
+.STimg {
+    width:332px/2px;
+    height:250px;
+}
+
+.STtext {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size:20px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.revLink:hover {
+    background-color: #8E386E;
+    color:white;
+}
