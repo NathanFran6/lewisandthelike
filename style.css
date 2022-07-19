@@ -20,6 +20,9 @@ body {
 
 .logo {
     margin-right:55%;
+    width:120px;
+    height:120px;
+    padding-left:40px;
 }
 
 .quote {
