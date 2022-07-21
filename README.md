@@ -5,5 +5,6 @@ Features Need to Include (Put check,ark when finished):
 - Reviews/thoughts on books
 - Timeline of Lewis
 - An about page
-- A review system 
 - Catalog System
+- UserAuth System w/ comments
+- FAQ(ByMyself): questions I ask about the books answered or tried to by myself

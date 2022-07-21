@@ -83,7 +83,9 @@ a {
 
 .review {
     display: flex;
-    gap:100px;
+    gap:200px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8E386E;
 }
 
 .revImg {
@@ -96,13 +98,16 @@ a {
 .reviewBox {
     margin-top: 20px;
     display: flex;
-    margin-left:300px;
+    margin-left:250px;
     width:700px;
 }
 
 .quotes {
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width:500px;
+    align-self:right;
 }
 
 .homeLink {
@@ -116,4 +121,46 @@ a {
 .others {
     margin-left:20px;
     margin-top:30px;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+.cat {
+    display:flex;
+    gap:30px;
+}
+
+.book {
+    display: flex;
+    height:400px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.imgCat {
+    width:332px/2px;
+    height:250px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    background-color: #8E386E;
+    height:40px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    color:#D2B650;
+}
+
+.IG {
+    width:30px;
+    height:30px;
 }
