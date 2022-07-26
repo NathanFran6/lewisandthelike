@@ -14,14 +14,14 @@ body {
     display:flex;
     justify-content: space-between;
     list-style: none;
-    gap: 120px;
+    gap: 100px;
     font-size: 25px;
 }
 
 .logo {
     margin-right:55%;
-    width:120px;
-    height:120px;
+    width:539px/3px;
+    height:116px;
     padding-left:40px;
 }
 
@@ -35,7 +35,7 @@ body {
 .qText {
     position: absolute;
     top:20%;
-    left:42%;
+    left:40%;
     transform: translate(-50%, -50%); 
     color:white;
     font-size: 40px;
@@ -123,6 +123,10 @@ a {
     margin-top:30px;
 }
 
+.otherR {
+    display:flex;
+}
+
 .FAQ {
     display: flex;
     flex-direction: column;
@@ -134,6 +138,7 @@ a {
 .cat {
     display:flex;
     gap:30px;
+    margin-bottom: 22%;
 }
 
 .book {
