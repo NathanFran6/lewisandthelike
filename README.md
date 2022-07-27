@@ -8,3 +8,4 @@ Features Need to Include (Put check,ark when finished):
 - Catalog System
 - UserAuth System w/ comments
 - FAQ(ByMyself): questions I ask about the books answered or tried to by myself
+- A personal Blog with arguments and papers on anything religious

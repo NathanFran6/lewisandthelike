@@ -1,3 +1,4 @@
+/* All of the body */
 body {
     margin:0px;
 }
@@ -10,6 +11,7 @@ body {
     font-family: 'Edu TAS Beginner', cursive;
 }
 
+/* Header */
 .pages {
     display:flex;
     justify-content: space-between;
@@ -25,23 +27,33 @@ body {
     padding-left:40px;
 }
 
+.homeLink {
+    color:#D2B650;
+}
+
+.homeLink:hover {
+    color:white;
+}
+
+/* Quote Board */
 .quote {
     display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: #8E386E;
 }
 
+.qImage {
+    width:100%;
+    height:400px;
+}
 .qText {
     position: absolute;
-    top:20%;
-    left:40%;
-    transform: translate(-50%, -50%); 
+    padding-left:180px;
     color:white;
     font-size: 40px;
     font-family: 'Edu TAS Beginner', cursive;
 }
 
+/* Book Images, Titles, Authors, and synopsis text */
 .reviews {
     display: flex;
     padding-top: 20px;
@@ -81,6 +93,7 @@ a {
     color:white;
 }
 
+/* Reviews for Each Book */
 .review {
     display: flex;
     gap:200px;
@@ -102,6 +115,7 @@ a {
     width:700px;
 }
 
+/* Favorite Quotes for Each Book */
 .quotes {
     display:flex;
     flex-direction: column;
@@ -110,14 +124,7 @@ a {
     align-self:right;
 }
 
-.homeLink {
-    color:#D2B650;
-}
-
-.homeLink:hover {
-    color:white;
-}
-
+/* Other Reviews at bottom of pages*/
 .others {
     margin-left:20px;
     margin-top:30px;
@@ -127,6 +134,7 @@ a {
     display:flex;
 }
 
+/* Frequently asked questions by myself*/
 .FAQ {
     display: flex;
     flex-direction: column;
@@ -135,6 +143,7 @@ a {
     margin-left:20px;
 }
 
+/* Catalog Display */
 .cat {
     display:flex;
     gap:30px;
@@ -153,10 +162,12 @@ a {
     height:250px;
 }
 
+/* Footer */
 .foot {
     display: flex;
     flex-direction: column;
-    margin-top: auto;
+    position: fixed;
+    bottom:0;
     background-color: #8E386E;
     height:40px;
     width:100%;
@@ -168,4 +179,21 @@ a {
 .IG {
     width:30px;
     height:30px;
+}
+
+/* About Page */
+.about {
+    display:flex;
+    gap:280px;
+    margin:80px 0 0 200px;
+}
+
+.nathan {
+    width:533px;
+    height:356px;
+}
+
+.aboutTxt {
+    width:400px;
+    text-align: center;
 }
